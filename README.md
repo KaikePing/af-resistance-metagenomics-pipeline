@@ -2,25 +2,16 @@
 
 A computational pipeline for identifying antifungal-resistant Aspergillus fumigatus strains in metagenomic data.
 
-# TOC
-- [af-resistance-metagenomics-pipeline](#af-resistance-metagenomics-pipeline)
-- [TOC](#toc)
-  - [Requirement](#requirement)
-  - [1. Data Retrieval](#1-data-retrieval)
-    - [sra\_downloader.py](#sra_downloaderpy)
-      - [Usage](#usage)
-      - [Example](#example)
-
 ## Requirement
 
-- sra-tools (>=3.1.0)
+- SRA Toolkit
 - Kraken2
 
 ## 1. Data Retrieval
 
 ### sra_downloader.py
 
-This script is used to download and extract `fastq` files from the Sequence Read Archive (SRA). It can take either a single SRA ID or a file containing multiple SRA IDs (one per line) as input.
+This script is used to download and extract `fasta` or `fastq` files from the Sequence Read Archive (SRA). It can take either a single SRA ID or a file containing multiple SRA IDs (one per line) as input.
 
 #### Usage
 
