@@ -2,12 +2,21 @@
 
 A computational pipeline for identifying antifungal-resistant Aspergillus fumigatus strains in metagenomic data.
 
+# TOC
+- [af-resistance-metagenomics-pipeline](#af-resistance-metagenomics-pipeline)
+- [TOC](#toc)
+  - [Requirement](#requirement)
+  - [1. Data Retrieval](#1-data-retrieval)
+    - [sra\_downloader.py](#sra_downloaderpy)
+      - [Usage](#usage)
+      - [Example](#example)
+
 ## Requirement
 
-- sra-tools
+- sra-tools (>=3.1.0)
 - Kraken2
 
-## Data Retrieval
+## 1. Data Retrieval
 
 ### sra_downloader.py
 
