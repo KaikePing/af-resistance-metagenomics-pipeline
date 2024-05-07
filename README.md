@@ -4,7 +4,7 @@ A computational pipeline for identifying antifungal-resistant Aspergillus fumiga
 
 # TOC
 
-- [af-resistance-metagenomics-pipeline](#af-resistance-metagenomics-pipeline)
+- [azole-resistance-metagenomics-pipeline](#af-resistance-metagenomics-pipeline)
 - [TOC](#toc)
   - [Requirement](#requirement)
   - [1. Data Retrieval](#1-data-retrieval)
