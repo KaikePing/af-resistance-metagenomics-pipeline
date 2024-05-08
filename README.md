@@ -12,7 +12,7 @@ A computational pipeline for identifying antifungal-resistant Aspergillus fumiga
       - [Usage](#usage)
       - [Example](#example)
   - [2. Kraken2 Building and Classification](#2-kraken2-building-and-classification)
-    - [sra\_downloader.py](#sra_downloaderpy-1)
+    - [kraken2_workflow.py](#kraken2_workflowpy)
       - [Usage](#usage-1)
 
 
@@ -53,7 +53,7 @@ We provide an example file `example_metagenomics_list.txt` containing a list of 
 
 ## 2. Kraken2 Building and Classification
 
-### sra_downloader.py
+### kraken2_workflow.py
 
 The script automates the process of building a Kraken2 database and running Kraken2 for metagenomic sequence classification. 
 
