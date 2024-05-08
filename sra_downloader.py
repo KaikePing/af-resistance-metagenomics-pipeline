@@ -28,6 +28,8 @@ if __name__ == "__main__":
     for sra_id in tqdm(sra_numbers):
         print ("Generating fastq for: " + sra_id)
         fastq_dump_command = 'fasterq-dump --outdir ./fastq --gzip --skip-technical --readids --read-filter pass --dumpbase --split-3 --clip ./data/' + sra_id + '/' + sra_id + '.sra'
+        # print ("Generating fasta for: " + sra_id)
+        # fastq_dump_command = 'fasterq-dump --fasta --outdir ./fastq --gzip --skip-technical --readids --read-filter pass --dumpbase --split-3 --clip ./data/' + sra_id + '/' + sra_id + '.sra'
         print ("The command used was: " + fastq_dump_command)
         os.system(fastq_dump_command)
 
